@@ -1,28 +1,52 @@
-<h1>Description:</h1>
+# Snake Game – C++ / SFML
 
-Developed a new version of the classic Snake game, featuring eight levels with increasing difficulty, a storyline, and a final boss. Utilized C++ and the SFML library to implement structured programming concepts and create engaging graphics for the game.
+A modern version of the classic Snake game built using C++ and the SFML graphics library.  
+The game introduces two gameplay modes, multiple levels, dynamic environments, and customizable snake skins.
 
-Technologies Used: C++, SFML Library
-<h1>Key Responsibilities:</h1>
+## Technologies
+- C++
+- SFML (Simple and Fast Multimedia Library)
 
-Designed and implemented eight progressively challenging levels, integrating a small story and a final boss encounter to enhance gameplay.
+## Game Modes
 
-Applied structured programming principles to ensure modular, maintainable, and efficient code.
+### Survival Mode
+In this mode the player tries to survive as long as possible.
 
-Utilized the SFML library to develop visually appealing graphics and smooth game mechanics.
+Features:
+- Score increases as the snake eats apples
+- Harmful apples reduce the snake's length
+- Harmful apples do not appear when the snake is at its minimum size
+- Speed increases when reaching score milestones (20, 40, ...)
+- Dynamic seasonal background changes over time
+- Top 3 high score leaderboard
+- 10 selectable snake skins
+- Optional dynamic snake color that changes while moving
 
-Conducted thorough testing and debugging to ensure a seamless and enjoyable player experience.
+### Story Mode
+A story-driven adventure mode.
 
-<h1>Project Outcomes:</h1>
+Story:
+The snake's duck companion has been kidnapped by an evil witch.  
+To rescue the duck, the snake must complete **8 progressively difficult levels** and defeat the final boss.
 
-Delivered an enhanced version of the Snake game, providing players with a more engaging and challenging experience.
+Gameplay progression:
+- Each level introduces new challenges
+- Increasing snake speed
+- Obstacles appearing in the map
+- Bombs that instantly defeat the snake
+- Final boss witch that attacks the player with ice projectiles
+- The player must reach the required score to defeat the boss and complete the story
 
-Demonstrated proficiency in C++ programming and the use of the SFML library for game development.
-
-Showcased ability to create a structured and well-designed codebase, facilitating easy updates and maintenance.
-
-This project highlights my skills in game development, structured programming, and the use of advanced graphics libraries to create an immersive gaming experience.
+## Features
+- Two game modes (Survival & Story)
+- 8 progressive levels
+- Boss fight in the final stage
+- Multiple skins and color customization
+- Dynamic difficulty system
+- High score leaderboard
+- Seasonal background transitions
 
 ## Demo Video
+Watch the gameplay demo:
 
-[Watch the demo](https://www.youtube.com/watch?v=2vkfmcCbbc0)
+https://www.youtube.com/watch?v=2vkfmcCbbc0
